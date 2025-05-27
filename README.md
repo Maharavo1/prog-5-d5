@@ -47,7 +47,7 @@ Interface figée	                 Bug logiciel, surcharge ou écran tactile déf
 Annulation tardive	              Commande déjà en cours de préparation
 
 
-Optimisations Possibles
+4)Optimisations Possibles
 Optimisation	Description
 Paiement mobile/app	Paiement rapide, précommande via application mobile
 Machine connectée	Notifications automatiques, gestion à distance, intégration cloud
@@ -58,3 +58,18 @@ Maintenance prédictive	Capteurs pour anticiper les pannes et optimiser les inte
 Réapprovisionnement automatique	Alertes en cas de niveau critique des stocks
 Programme de fidélité	Points accumulés, réductions personnalisées, cartes de membre
 
+5)Modélisation du Système
+La modélisation du système repose sur une structure orientée objet, avec des classes représentant les entités clés et leurs interactions. Ci-dessous, un aperçu des principales classes et de leurs responsabilités :
+
+Entités principales
+Classe	Description
+MachineCafe	Représente la machine dans son ensemble : gestion des stocks, de l’état, etc.
+Boisson	Type de boisson avec nom, ingrédients nécessaires, prix, temps de préparation
+Commande	Représente une commande passée par un client
+Paiement	Gère les méthodes de paiement (espèces, carte, mobile)
+Stock	Suivi des niveaux d’ingrédients (eau, lait, café, sucre...)
+Utilisateur	Abstraction de tout acteur (Client, Technicien, Admin)
+Technicien	Sous-classe d’Utilisateur, accède aux fonctions de maintenance
+Administrateur	Sous-classe d’Utilisateur, gère les statistiques et paramètres
+Transaction	Enregistre chaque vente ou remboursement
+Entretien	Planifie et historise les opérations de maintenance
