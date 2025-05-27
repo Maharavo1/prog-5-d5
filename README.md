@@ -45,3 +45,16 @@ Boisson non servie	              Blocage mécanique ou gobelet manquant
 Machine en panne	                 Problème électrique, chauffe-eau, pompe, capteur...
 Interface figée	                 Bug logiciel, surcharge ou écran tactile défectueux
 Annulation tardive	              Commande déjà en cours de préparation
+
+
+Optimisations Possibles
+Optimisation	Description
+Paiement mobile/app	Paiement rapide, précommande via application mobile
+Machine connectée	Notifications automatiques, gestion à distance, intégration cloud
+Interface utilisateur	Écran tactile interactif, interface vocale, support multilingue
+Analyse intelligente	Données de consommation analysées pour recommandations ou prédictions
+Réduction d’énergie	Mise en veille intelligente, économies d’énergie
+Maintenance prédictive	Capteurs pour anticiper les pannes et optimiser les interventions techniques
+Réapprovisionnement automatique	Alertes en cas de niveau critique des stocks
+Programme de fidélité	Points accumulés, réductions personnalisées, cartes de membre
+
