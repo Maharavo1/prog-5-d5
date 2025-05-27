@@ -4,13 +4,22 @@
 Ce projet décrit un système logiciel pour gérer une machine à café intelligente, intégrant des fonctionnalités pour les utilisateurs, 
 les techniciens et ladministrateurs. Il couvre les cas d’usage, la logique métier, les erreurs possibles et les optimisations envisageables.
 
-| Use Case                     | Description                                                                 |
-| ---------------------------- | --------------------------------------------------------------------------- |
-| UC1 - Insérer un paiement    | L'utilisateur insère de l'argent ou paie via carte/mobile                   |
-| UC2 - Choisir une boisson    | L'utilisateur sélectionne un type de café (cappuccino, thé) |
-| UC3 - Vérifier disponibilité | Le système vérifie si les ingrédients nécessaires sont disponibles          |
-| UC4 - Préparer le café       | La machine prépare la boisson choisie                                       |
-| UC5 - Rendre la monnaie      | Si le paiement dépasse le prix, la monnaie est rendue                       |
-| UC6 - Annuler la commande    | L'utilisateur peut annuler avant confirmation                               |
-| UC7 - Maintenance            | Remplissage des ingrédients, vidange, nettoyage                             |
-| UC8 - Suivi de consommation  | Comptabiliser les ventes ou analyser les préférences clients                |
+
+1)Cas d’Usage :
+*Acteurs 
+   _Client : Achète une boisson chaude.
+   _Technicien : Assure la maintenance, les réparations et le réapprovisionnement.
+   _Administrateur : Supervise les ventes, les stocks et les paramètres système.
+
+*Scénarios fonctionnels
+   _ Paiement : Paiement par pièces, carte bancaire, mobile ou application.
+   _ Choix de boisson : Sélection parmi différents types (expresso, latte, thé…).
+   _ Vérification des stocks : Vérifie la disponibilité des ingrédients nécessaires.
+   _ Préparation : Chauffage, mouture, dosage et mélange des ingrédients.
+   _ Distribution : Service de la boisson avec rendu de monnaie si nécessaire.
+   _ Annulation : Le client peut annuler la commande avant le début de la préparation.
+   _ Maintenance : Nettoyage, réparations, remplissage automatique ou manuel.
+   _ Suivi & rapports : Statistiques de vente, alertes de panne, gestion à distance.
+    _Fidélité : Gestion de points, promotions et offres personnalisées.
+
+   |
