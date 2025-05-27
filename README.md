@@ -35,3 +35,13 @@ les techniciens et ladministrateurs. Il couvre les cas d’usage, la logique mé
    Offres promotionnelles : Réductions, cartes de fidélité, abonnements.
    Historique d’entretien : Journalisation des maintenances techniques.
    Connectivité : Interface connectée pour contrôle et surveillance à distance.
+   
+3)Erreurs Possibles
+Erreur	                          Cause Potentielle
+Paiement refusé	                 Carte invalide, mobile non reconnu, erreur système
+Boisson non disponible	           Manque d’ingrédients (grains, lait, eau...)
+Rendu de monnaie impossible	     Pièces insuffisantes ou erreur logicielle
+Boisson non servie	              Blocage mécanique ou gobelet manquant
+Machine en panne	                 Problème électrique, chauffe-eau, pompe, capteur...
+Interface figée	                 Bug logiciel, surcharge ou écran tactile défectueux
+Annulation tardive	              Commande déjà en cours de préparation
