@@ -1,4 +1,9 @@
 # prog-5-d5
+
+☕ Système de Machine à Café
+Ce projet décrit un système logiciel pour gérer une machine à café intelligente, intégrant des fonctionnalités pour les utilisateurs, 
+les techniciens et ladministrateurs. Il couvre les cas d’usage, la logique métier, les erreurs possibles et les optimisations envisageables.
+
 | Use Case                     | Description                                                                 |
 | ---------------------------- | --------------------------------------------------------------------------- |
 | UC1 - Insérer un paiement    | L'utilisateur insère de l'argent ou paie via carte/mobile                   |
