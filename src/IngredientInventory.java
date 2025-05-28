@@ -12,13 +12,21 @@ public class IngredientInventory {
 
 
     public boolean checkIngredients(int coffeeNeeded, int milkNeeded, int sugarNeeded) {
-        if (coffeeStock < coffeeNeeded || milkStock < milkNeeded || sugarStock < sugarNeeded) {
-            System.out.println("Erreur : Ingrédients insuffisants.");
+        if (coffeeStock < coffeeNeeded) {
+            System.out.println("Erreur : Stock de café insuffisant.");
+            return false;
+        }
+        if (milkStock < milkNeeded) {
+            System.out.println("Erreur : Stock de lait insuffisant.");
+            return false;
+        }
+        if (sugarStock < sugarNeeded) {
+            System.out.println("Erreur : Stock de sucre insuffisant.");
             return false;
         }
         return true;
     }
-
+;
 
     public void useIngredients(int coffeeUsed, int milkUsed, int sugarUsed) {
         coffeeStock -= coffeeUsed;

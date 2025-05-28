@@ -23,21 +23,21 @@ public class UserInterface {
 
         switch (choice) {
             case 1:
-                coffeePrice = 1.5;
+                coffeePrice = 1000.5;
                 coffeeNeeded = 1;
                 milkNeeded = 0;
                 sugarNeeded = 0;
                 waterNeeded = 1;
                 break;
             case 2:
-                coffeePrice = 2.0;
+                coffeePrice = 2000.0;
                 coffeeNeeded = 1;
                 milkNeeded = 1;
                 sugarNeeded = 0;
                 waterNeeded = 1;
                 break;
             case 3:
-                coffeePrice = 2.5;
+                coffeePrice = 2000.5;
                 coffeeNeeded = 1;
                 milkNeeded = 1;
                 sugarNeeded = 1;
